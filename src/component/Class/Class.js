@@ -16,11 +16,11 @@ const Class = () => {
             <div className="col-md-4 mt-5" key={cls.id}>
               <div
                 className="card mb-3 ms-5 me-3"
-                style={{ "maxWidth": "540px" }}
+                style={{ maxWidth: "540px" }}
               >
                 <div className="row g-0">
                   <div className="col-md-5 image">
-                    <img  
+                    <img
                       src={cls.image}
                       className="img-fluid rounded ms-2 mt-2 img"
                       alt="..."
@@ -29,23 +29,23 @@ const Class = () => {
                   <div className="col-md-7">
                     <div className="card-body">
                       <h5 className="card-title">
-                        <span  className="text-danger">{cls.title}</span>
+                        <span className="text-danger">{cls.title}</span>
                       </h5>
                       <p className="card-text">
                         <small>
-                          <span  className="fw-bold">Monthly Fee: $</span>
+                          <span className="fw-bold">Monthly Fee: $</span>
                           {cls.price}
                         </small>
                       </p>
                       <p className="card-text">
                         <small>
-                          <span   className="fw-bold">Class Time:</span>{" "}
+                          <span className="fw-bold">Class Time:</span>{" "}
                           {cls.time}
                         </small>
                       </p>
                       <p className="card-text">
                         <small>
-                          <span  className="fw-bold">Description:</span>{" "}
+                          <span className="fw-bold">Description:</span>{" "}
                           {cls.des}
                         </small>
                       </p>

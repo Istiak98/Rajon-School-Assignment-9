@@ -11,7 +11,7 @@ const AllClasses = () => {
 
   //   console.log(classes);
   return (
-    <div className="team-container mt-2">
+    <div className="cls-container mt-2">
       {/* Home Page Search Section */}
       <h4 className="mt-1">Search Classes for Children</h4>
       <div className="search-box mt-2">
@@ -27,9 +27,7 @@ const AllClasses = () => {
           </button>
         </form>
       </div>
-      <div>
-        
-      </div>
+      <div></div>
 
       {/* Home Page Card Section */}
       <div className="class">
@@ -91,26 +89,26 @@ const AllClasses = () => {
         </button>
       </Link>
       <div>
-      <figure class="text-center">
-  <blockquote class="blockquote">
-    <p>Let's Learn From Today</p>
-  </blockquote>
-  <figcaption class="blockquote-footer">
-    Istiak Ahmed Rajon
-  </figcaption>
-</figure>
+        <figure className="text-center">
+          <blockquote className="blockquote">
+            <p>Let's Learn From Today</p>
+          </blockquote>
+          <figcaption className="blockquote-footer">
+            Istiak Ahmed Rajon
+          </figcaption>
+        </figure>
       </div>
       <h4 className="mt-3">Students Enrolled</h4>
-        <div className="progress mt-4">
-          <div
-            className="progress-bar progress-bar-striped progress-bar-animated"
-            role="progressbar"
-            aria-valuenow="50"
-            aria-valuemin="0"
-            aria-valuemax="100"
-            style={{ width: "50%" }}
-          ></div>
-        </div>
+      <div className="progress mt-4">
+        <div
+          className="progress-bar progress-bar-striped progress-bar-animated"
+          role="progressbar"
+          aria-valuenow="50"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          style={{ width: "50%" }}
+        ></div>
+      </div>
     </div>
   );
 };

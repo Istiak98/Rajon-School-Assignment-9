@@ -2,11 +2,11 @@ import React from "react";
 const Gallary = () => {
   return (
     <div>
+      {/* Galllary picture */}
       <div className="row">
         <h2 className="mb-3">Moment from kids</h2>
         <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-
-        {/* KIDS PHOTO GALLARY */}
+          {/* KIDS PHOTO GALLARY */}
           <img
             src="../images/image_about1.jpg"
             className="w-100 shadow-1-strong rounded mb-4"

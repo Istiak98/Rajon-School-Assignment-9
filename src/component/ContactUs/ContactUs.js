@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <div className="container overflow-hidden">
       <div className="row">
-        <div className="image-aboutus-banner2" style={{ "marginTop": "70px" }}>
+        <div className="image-aboutus-banner2" style={{ marginTop: "70px" }}>
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -64,7 +64,7 @@ const ContactUs = () => {
                   name="txtMsg"
                   className="form-control"
                   placeholder="Your Message"
-                  style={{ "width": "100%", "height": "150px" }}
+                  style={{ width: "100%", height: "150px" }}
                 ></textarea>
               </div>
               <div className="col-12">
