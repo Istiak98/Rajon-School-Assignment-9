@@ -90,6 +90,16 @@ const AllClasses = () => {
           See More Classes
         </button>
       </Link>
+      <div>
+      <figure class="text-center">
+  <blockquote class="blockquote">
+    <p>Let's Learn From Today</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Istiak Ahmed Rajon
+  </figcaption>
+</figure>
+      </div>
       <h4 className="mt-3">Students Enrolled</h4>
         <div className="progress mt-4">
           <div
