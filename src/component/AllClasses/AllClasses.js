@@ -4,7 +4,7 @@ import "./AllClasses.css";
 const AllClasses = () => {
   const [classes, setClasses] = useState([]);
   useEffect(() => {
-    fetch("/classes2.json")
+    fetch("/classes.json")
       .then((res) => res.json())
       .then((data) => setClasses(data));
   }, []);
@@ -32,7 +32,7 @@ const AllClasses = () => {
       {/* Home Page Card Section */}
       <div className="class">
         <div className="row ">
-          {classes?.map((cls) => (
+          {classes?.slice(0,4).map((cls) => (
             <div className="col-md-6 mt-5" key={cls.id}>
               <div
                 className="card mb-3 ms-5 me-3"
